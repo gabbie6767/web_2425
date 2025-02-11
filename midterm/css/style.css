@@ -1,0 +1,23 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 5px solid #B6A89A;
+    padding: 5px;
+    background-color: #ffffff;
+    
+}
+
+.nav {
+    list-style:none;
+    text-align:center;
+}
+ 
+.nav li {
+    display:inline;
+    margin-right: 20px;
+}
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
