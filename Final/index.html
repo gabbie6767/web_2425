@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who am I?</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="index.html">home</a></li>
+            <li><a href="interests.html">interests</a></li>
+            <li><a href="classes.html">classes</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="photos.html">photos</a></li>
+        </ul>
+    </div>
+    <h1 style="text-align: center;">Home</h1>
+    <p style="color: #002148; text-align: center; font-size: 30px;">Who am I?</p>
+    <p style="color: #002148; text-align: center; font-size: 20px;">Gabriella Marie Rowell</p>
+    <p style="color: #002148; text-align: center; font-size: 15px;"> I enjoy playing lots of sports and hanging out with friends. I have a 16 year old brother named Lucas. I was born on October 12th, 2010. I go to Eastsideprep school in Kirkland, WA. My favorite hangout place in bellevue is Bell Square, showing my love for shopping. If I could travel anywhere right now I would go to Paris and Amsterdam. My favorite book I've read is Survivors all about kids who survived the Holocaust.</p>
+    
+    <h2>Whats your Name?</h2>
+    <button onclick="askName()">Click here to enter your name</button>
+    <p id="ask-name"></p>
+
+    <script>
+        alert('Welcome to my Website');
+
+        function askName() {
+            var nameReturn = document.getElementById('ask-name');
+            var name = prompt('Please enter your name' , 'HERE');
+            if (name=='Gabbie') {
+                alert('Please try again');
+            } else {
+                nameReturn.innerHTML = 'Hello ' + name + '! Nice to meet you!';
+            }
+        }
+    </script>
+    
+    <h2>Who am I?</h2>
+    <img src="images/Gabbie Jumping.JPG" width="300">
+    <img src="images/gabbie River.jpg" width="460">
+    <img src="images/Gabbie Lucas.jpg" width="460">
+    <h2>Quick Facts</h2>
+    <p>My full name is Gabriella Marie Rowell but I just go by Gabbie. I was born on October 12th, 2010. I was born in Seattle, Wa. My mom is from Washington and my dad is from Southern California. I speak english fluently and am learning Spanish for school. I attend eastside prep school in Kirkland, Wa.</p>
+
+    <h2>Family</h2>
+    <p>I am a family of 6 including my 2 loving dogs. My moms name is Alexis Rowell. My dads name is Michael Rowell. My brother is a sophmore at Bellevue High School. He has his liscense but sadly rarley drives me places. My faviorte way of spending time with my mom is shopping togther. My favorite way of spending time with my dad is going to Hockey games.</p>
+    <h2>Life Goals</h2>
+    <p>Im currenlty in 8th grade and have many years to think about what I want to do when I'm older or even where I would like to attend college. My current dream job is a Dermatologist. When I was young I wanted to be a baker, then a data scientist, now a Dermatologist. For college my only requierment right now is that the climate is warm.</p>
+</body>
+</html>
